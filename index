@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Bliss</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://www.foodiesfeed.com/wp-content/uploads/2023/05/cozy-coffee-shop-interior.jpg);
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .promo {
+            background-color: #ff9966;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .menu {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5em 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: -5;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Coffee Bliss</h1>
+    </header>
+
+    <nav>
+        <a href="dm 3.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Welcome to Coffee Bliss!</h2>
+        <p>Discover the joy of exceptional coffee in a cozy atmosphere.</p>
+
+        <div class="promo">
+            <h2>Special Promotion!</h2>
+            <p>Buy one, get one free on our featured coffee blend. Limited time offer!</p>
+        </div>
+
+        <h2>Menu</h2>
+        <ul class="menu">
+            <li class="menu-item">Espresso <span>125rs</span></li>
+            <li class="menu-item">Latte <span>140rs</span></li>
+            <li class="menu-item">Cappuccino <span>150rs</span></li>
+            <!-- Add more items as needed -->
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2024 Coffee Bliss | <a href="about.html">About Us</a> | <a href="contact.html">Contact</a>
+    </footer>
+</body>
+</html>
