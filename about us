@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Coffee Bliss</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://img.freepik.com/premium-photo/cozy-coffee-shop_941493-1665.jpg?w=826);
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .about-image {
+            width: 15%;
+            border-radius: 4px;
+            margin-bottom: 0em;
+        }
+
+        .mission {
+            background-color: #f0f0f0;
+            padding: 2.5em;
+            border-radius: 2px;
+        }
+
+        footer {
+            background-color: #0c0a11;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: ;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="dm 3.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Coffee Bliss</h1>
+    </header>
+
+    <section>
+        <h2>About Us</h2>
+        <img class="about-image" src="coffee.jpg.jpeg" alt="Coffee Shop Interior">
+
+        <p>Welcome to Coffee Bliss, where we strive to create a delightful and memorable coffee experience. Our passion for exceptional coffee drives us to carefully select the finest beans and craft each cup with precision.</p>
+
+        <div class="mission">
+            <h2>Our Mission</h2>
+            <p>At Coffee Bliss, our mission is to provide a warm and inviting space for coffee enthusiasts to indulge in quality brews. We believe in fostering a sense of community and sharing the joy of great coffee.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Coffee Bliss | <a href="about.html">About Us</a> | <a href="contact.html">Contact</a></p>
+    </footer>
+</body>
+</html>
